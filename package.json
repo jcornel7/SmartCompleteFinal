@@ -13,13 +13,7 @@
     "node": ">=4.3.2"
   },
   "scripts": {
-    "deploy": "gcloud app deploy",
-    "start": "node app.js",
-    "lint": "samples lint",
-    "pretest": "npm run lint",
-    "system-test": "samples test app",
-    "test": "npm run system-test",
-    "e2e-test": "samples test deploy"
+    "deploy": "gcloud app deploy"
   },
   "dependencies": {
     "express": "4.15.3"
